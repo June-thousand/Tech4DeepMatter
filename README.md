@@ -8,6 +8,7 @@
 | Data  | [h5 file](#Data-h5-file) | 11.15 | Check format & info about h5 file  |
 | Data  | [normalization](#Data-normalization) | 11.15 | Normalization in preparing data for deep learning network  |
 | Preprocess  | [slices loading speed up](#Preprocess-speed-up) | 11.15 | Prefetching & Caching |
+| Preprocess  | [data flow explanation](#Preprocess-data-flow) | 11.15 | Compare "load as whole" V.S. "load as move" |
 
 
 
@@ -24,4 +25,8 @@
 <a id = "Preprocess-speed-up"></a>
 ### slices loading speed up
 [More codes and instruction of how preprocess was done](docs/PREPROCESS_H5_SLICE_SUMMARY.md)
+
+<a id = "Preprocess-data-flow"></a>
+### data flow explanation
+[More codes and instruction explaining loading data from ssd -> RAM -> CPU (UI rendering)](docs/DATA_FLOW_EXPLANATION.md)
 
