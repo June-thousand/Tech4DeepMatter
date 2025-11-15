@@ -9,6 +9,7 @@
 | Data  | [normalization](#Data-normalization) | 11.15 | Normalization in preparing data for deep learning network  |
 | Preprocess  | [slices loading speed up](#Preprocess-speed-up) | 11.15 | Prefetching & Caching |
 | Preprocess  | [data flow explanation](#Preprocess-data-flow) | 11.15 | Compare "load as whole" V.S. "load as move" |
+| Qt  | [signal slot explanation](#Qt-signal-slot) | 11.15 | Explain Signal, Worker object and .connect function |
 
 
 
@@ -29,4 +30,9 @@
 <a id = "Preprocess-data-flow"></a>
 ### data flow explanation
 [More codes and instruction explaining loading data from ssd -> RAM -> CPU (UI rendering)](docs/DATA_FLOW_EXPLANATION.md)
+
+## Qt
+<a id = "Qt-signal-slot"></a>
+### signal slot explanation
+[More codes and instruction of what is the signal slot in PySide6](docs/QT_SIGNAL_SLOT.md)
 
